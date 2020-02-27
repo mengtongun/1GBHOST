@@ -1,0 +1,387 @@
+*html,body
+{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    height: 80px;
+    line-height: 75px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    font-size: 18px;
+}
+.secondary
+{
+    background-color:#3d0052;
+    box-shadow: 0px 0px 17px 0px;
+    transition: all 0.5s ease-in;
+}
+ul
+{
+    list-style: none;
+}
+
+ul li
+{
+    display: inline-block;
+}
+header nav
+{
+    float: right;
+}
+.logo img
+{
+    margin-top: -17px;
+    left: -10px;
+    position: fixed;
+    height: 110px;
+    width: 180px;
+}
+header nav ul li a
+{
+    padding-right: 30px;
+    color: white;
+    font-weight: bold;
+    transition: all 0.5s ease-in;
+}
+header nav ul li a:hover
+{
+    color: yellow;
+    text-decoration: none;
+}
+.fab_fa
+{
+    height: 60px;
+    width: 60px;
+    padding-right: 20px;
+    color: white;
+}
+.img1
+{
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.7)), url(https://wallpapercart.com/wp-content/uploads/2019/05/battlefield-v-2160x1440-wallpaper.png);
+    background-size: 100% 100%;
+}
+
+.img2
+{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(https://www.itl.cat/pngfile/big/7-73802_4k-gaming-wallpapers-1080p-bozhuwallpaper-2017-games.jpg);
+    background-size: 100% 100%;
+}
+
+.img3
+{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(https://all4desktop.com/data_images/original/4237948-league-of-legends.jpg);
+    background-size: 100% 100%;
+}
+
+.slider, .slider ul, .slider ul li
+{
+    top: -10px;
+    height: 95%;
+    width: 105%;
+    color: white;
+    left: -40px;
+    text-align: center;
+}
+
+.slider h1
+{
+    font-weight: bolder;
+    margin-top: 300px;
+}
+
+.slider span
+{
+    color:orange;
+}
+
+.slider a
+{
+    padding: 10px 50px;
+    margin-right: 10px;
+}
+.slider a.btn-half
+{
+    background-color: Purple;
+    color: white;
+    transition: 0.3s ease-in;
+}
+.slider a.btn-half:hover
+{
+    background-color: #36004d;
+}
+
+.slider a.btn-full
+{
+    background-color: orange;
+    color: white;
+    transition: 0.3s ease-in;
+}
+.slider a.btn-full:hover
+{
+    background-color:orangered;
+}
+.slider i
+{
+    font-size: 35px;
+    margin-right: 10px;
+}
+#intro{
+    top: 0px;
+}
+.intro-are_white
+{
+    position: relative;
+    padding: 100px 0px;
+    text-align: center;
+}
+.sub-heading
+{
+    position: relative;
+    margin-bottom: 75px;
+}
+.sub-heading:before
+{
+    contain: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -3%;
+    width: 6%;
+    height: 1px;
+    background-color: purple;
+    z-index: 1;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    transition: 0.3s ease;
+}
+.sub-heading:hover:before
+{
+    width: 24%;
+    margin-left: -12px;
+}
+.sub-heading::after
+{
+    contain: "";
+    position: absolute;
+    top: 100%;
+    margin-left: -12%;
+    left: 50%;
+    width: 24%;
+    height: 1px;
+    background-color: purple;
+}
+.sub-heading p 
+{
+    color: black;
+    display: inline-block;
+    padding: 0px 0px 20px;
+    position: relative;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+
+}
+.fab_fa1
+{
+    height: 60px;
+    width: 65px;
+    padding-right: 20px;
+    color: white;
+    position: relative;
+    top: -25px;
+}
+.intro-are h2
+{
+    text-align: center;
+}
+.intro-are p
+{
+    text-align: center;
+}
+.intro-block
+{
+    position: relative;
+    background: whitesmoke;
+    margin: 40px 0px 0px;
+    text-align: center;
+    padding: 75px 25px 40px;
+    color: aliceblue;
+}
+.intro-block:hover, .intro-block:active
+{
+    background:#3d0052;
+}
+.intro-block:hover
+{
+    -webkit-transition: .6s ease;
+    -moz-transition: .6s ease;
+    -ms-transition: .6s ease;
+    -o-transition: .6s ease;
+    transition: .6s ease;
+}
+.intro-block .intro-icon
+{
+    position: absolute;
+    top: -31px;
+    left: 50%;
+    margin-left: -31px;
+
+}
+.intro-block .fab_fa1
+{
+    width: 68px;
+    height: 68px;
+    font-size: 27px;
+    color:white;
+    background: #f700ff;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 10px whitesmoke;
+}
+.intro-block:hover .fab_fa1, .intro-block:active .fab_fa1
+{
+    background: white;
+    color: #36004d;
+    box-shadow: 0px 0px 0px 10px whitesmoke;
+}
+.intro-block h2
+{
+    font-size: 32px;
+    color: #36004d;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.intro-block p
+{
+    color: #505050;
+}
+.intro-block:hover h2, .intro-block:hover p
+{
+    color: #f6f6f6;
+}
+.fab_fa2
+{
+    height: 60px;
+    width: 65px;
+    padding-right: 20px;
+    color: white;
+    position: relative;
+    top: -25px;
+}
+.feature-area
+{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(https://wallpapercave.com/wp/wp2548362.jpg) ;
+    background-position: center;
+    background-attachment: fixed;
+}
+.title h2,p,h3
+{
+    color: white;
+}
+.title .sub-heading p
+{
+    color: #f6f6f6;
+    border-color: #36004d;
+}
+.single-feature h3
+{
+    color: white;
+}
+.single-feature
+{
+    position: relative;
+    width: 325px;
+    float: left;
+    padding:30px 0;
+    text-align: center;
+    border-right: 2px solid #65c8e5;
+    border-bottom: 2px solid #65c8e5;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -ms-transition: .3s ease;
+    -o-transition: .3s ease;
+    transition: .3s ease;
+}
+.feature-blockn:after
+{
+    contain: "";
+    display: table;
+}
+.feature-area
+{
+    clear: both;
+}
+.feature-block:after
+{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.single-feature i.fab_fa2
+{
+    border: 2px solid #fff;
+    padding: 15px;
+    border-radius: 50%;
+    left: -50%;
+    font-size: 30px;
+    background-color: #00a7dd;
+    color: white;
+    width: 64px;
+    height: 64px;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -ms-transition: .3s ease;
+    -o-transition: .3s ease;
+    transition: .3s ease;
+}
+.feature-blockn:hover .single-feature
+{
+    border-color: white;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -ms-transition: .3s ease;
+    -o-transition: .3s ease;
+    transition: .3s ease;
+
+}
+.single-feature:hover .feature-icon .fab_fa2
+{
+    border: 2px solid #00a7dd;
+    background: white;
+    color: #36004d;
+}
+.single-feature:nth-last-of-type(even)
+{
+    border-right: none;
+}
+.single-feature:nth-last-child(2)
+{
+    border-bottom: none;
+}
+.single-feature:last-child
+{
+    border-bottom: none;
+}
+.feature-area
+{
+    padding: 100px 0;
+}
+.feature-mockup
+{
+    border-bottom: -225px;
+    position: relative;
+}
+.image-responsive
+{
+    height: 500px;
+    width: 600px;
+    border-bottom: -225px;
+    position: relative;
+}
+.title .sub-heading p
+{
+    color: white;
+}
